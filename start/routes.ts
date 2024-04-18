@@ -1,13 +1,4 @@
-/*
-|--------------------------------------------------------------------------
-| Routes file
-|--------------------------------------------------------------------------
-|
-| The routes file is used for defining the HTTP routes.
-|
-*/
-
-const MomentsController = () => import('#controllers/MomentsController')
+const MomentsController = () => import('#controllers/momentsController')
 import router from '@adonisjs/core/services/router'
 
 router
